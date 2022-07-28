@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bekahthe.dev",
+  "homepage": "https://whois.bekahthe.dev",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@formspree/react": "^2.3.0",
