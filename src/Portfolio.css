@@ -4,13 +4,14 @@
 body {
     background-color: #1d1d1d;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .header,
 .footer {
     background-image:
         linear-gradient(to bottom right, #2f122c, #0f4e61);
-        padding: 20px 0px 0px 0px;
+        padding: 25px 0px 0px 0px;
 }
 
 .header-box {
@@ -52,39 +53,19 @@ body {
     margin-right: 0;
 }
 
-.btns {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn-box {
-    max-width: 95.7%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .header Button {
     font-family: 'Fira Code', sans-serif;
     font-weight: 500;
     background-color: #a2b4d8;
+    min-width: 100%;
     border: none;
     color: #7a87a2;
-    width: 300px;
-    font-size: 20px;
-    padding: 10px 50px 10px 50px;
     bottom: 0;
 }
 
 .header Button:hover {
-    font-family: 'Fira Code', sans-serif;
-    font-weight: 500;
     background-color: #8e9ebd;
-    border: none;
     color: #fae3f0;
-    width: 300px;
-    font-size: 20px;
-    padding: 10px 50px 10px 50px;
-    bottom: 0;
 }
 
 .page-container {
@@ -125,6 +106,17 @@ body {
 .social-icon {
     width: 50px;
 }
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .spin:hover {
+    animation-name: spinning;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
 
 .social-container {
     display: flex;

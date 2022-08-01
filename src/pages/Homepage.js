@@ -44,7 +44,7 @@ function Homepage() {
         <div className='social-container'>{
             social.map(socials =>
                 <a href={socials.url} target='blank'>
-                    <img src={socials.img} alt={socials.alt} className='social-icon' />
+                    <img src={socials.img} alt={socials.alt} className='social-icon spin' />
                 </a>
             )
         }
@@ -56,7 +56,7 @@ function Homepage() {
         </h2>
         <p>
             The social icons also link to my corresponding profile on that site!
-            <br></br>I created them using <a href='https://www.aseprite.org'>Aseprite</a> which is a small application for creating pixel art.
+            <br></br>I created them using <a href='https://www.aseprite.org' target='blank'>Aseprite</a> which is a small application for creating pixel art.
         </p>
         
                 <p>
