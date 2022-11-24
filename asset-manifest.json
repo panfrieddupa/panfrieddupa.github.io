@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f28e63b.css",
-    "main.js": "/static/js/main.3886f627.js",
+    "main.css": "/static/css/main.21b244d0.css",
+    "main.js": "/static/js/main.6778ffa2.js",
     "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
-    "static/media/resume_bekah_2022.png": "/static/media/resume_bekah_2022.6d63d0ecd56d305b01b8.png",
-    "static/media/bekah_self_bw.png": "/static/media/bekah_self_bw.b8134c6ffd3f9c8e6df5.png",
-    "static/media/BekTech_nowords_1500px.png": "/static/media/BekTech_nowords_1500px.972c8150c8cad4fe6bb9.png",
+    "static/media/branded_self_image.png": "/static/media/branded_self_image.f45169c6ce5bf148f94f.png",
+    "static/media/bektech_logo.png": "/static/media/bektech_logo.972c8150c8cad4fe6bb9.png",
+    "static/media/web_close_menu.svg": "/static/media/web_close_menu.fef50b021b451a8a7cd05f3bdfefe198.svg",
+    "static/media/web_ham_menu.svg": "/static/media/web_ham_menu.38b9c8c2ad2009e0c8865be2a162ea39.svg",
     "index.html": "/index.html",
-    "main.9f28e63b.css.map": "/static/css/main.9f28e63b.css.map",
-    "main.3886f627.js.map": "/static/js/main.3886f627.js.map",
+    "main.21b244d0.css.map": "/static/css/main.21b244d0.css.map",
+    "main.6778ffa2.js.map": "/static/js/main.6778ffa2.js.map",
     "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f28e63b.css",
-    "static/js/main.3886f627.js"
+    "static/css/main.21b244d0.css",
+    "static/js/main.6778ffa2.js"
   ]
 }

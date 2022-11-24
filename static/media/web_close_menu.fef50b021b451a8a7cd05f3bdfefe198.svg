@@ -1,0 +1,40 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width="40"
+    zoomAndPan="magnify"
+    viewBox="0 0 375 262.499992"
+    height="40"
+    preserveAspectRatio="xMidYMid meet"
+    version="1.0">
+        <defs>
+            <clipPath id="a5169fc2db">
+                <path
+                    d="M 0.355469 0 L 374.640625 0 L 374.640625 262 L 0.355469 262 Z M 0.355469 0 "
+                    clip-rule="nonzero"
+                />
+            </clipPath>
+        </defs>
+    <g clip-path="url(#a5169fc2db)">
+        <path stroke-linecap="round"
+            transform="matrix(14.491396, -7.619373, 7.457362, 14.183264, 11.521007, 226.125635)"
+            fill="none"
+            stroke-linejoin="miter"
+            d="M 0.499929 -0.00000605337 L 23.834124 -0.000077697 "
+            stroke="#a2b4d8"
+            stroke-width="2"
+            stroke-opacity="1"
+            stroke-miterlimit="4"
+        />
+        <path stroke-linecap="round"
+            transform="matrix(14.458129, 7.752659, -7.572491, 14.122132, 11.867404, 35.987199)"
+            fill="none"
+            stroke-linejoin="miter"
+            d="M 0.500057 -0.0000486047 L 23.939528 -0.0000116663 "
+            stroke="#a2b4d8"
+            stroke-width="2"
+            stroke-opacity="1"
+            stroke-miterlimit="4"
+        />
+    </g>
+</svg>
