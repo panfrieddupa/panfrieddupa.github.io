@@ -7,14 +7,3 @@
     background-image:
         linear-gradient(to bottom right, #2f122c, #0f4e61);
 }
-
-@keyframes spinning {
-    from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
-  }
-  .spin:hover {
-    animation-name: spinning;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
