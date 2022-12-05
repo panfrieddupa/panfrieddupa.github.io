@@ -10,6 +10,7 @@ import {
 import Homepage from './pages/Homepage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
 
@@ -69,6 +70,11 @@ function App() {
                                     className='block md:border md:flex-1 md:text-center border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink md:hover:bg-bt_dark_blue md:bg-bt_light_blue p-2'>
                                     Threads That Thrive
                                 </a>
+                                <button className='block md:border md:flex-1 border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink md:hover:bg-bt_dark_blue md:bg-bt_light_blue p-2'>
+                                    <Link to='/projects' >
+                                        Projects
+                                    </Link>
+                                </button>
                             </div>
                         </div>
 
@@ -80,6 +86,7 @@ function App() {
                             <Route exact path='/' element={< Homepage />}></Route>
                             <Route exact path='/about' element={< AboutPage />}></Route>
                             <Route exact path='/contact' element={< ContactPage />}></Route>
+                            <Route exact path='/projects' element={< ProjectPage />}></Route>
                         </Routes>
                     </div>
                 </div>
@@ -119,10 +126,15 @@ function App() {
                                 className=' border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink p-2'>
                                 Threads That Thrive
                             </button>
+                            <button className=' border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink p-2'>
+                                <Link to='/projects' >
+                                    Projects
+                                </Link>
+                            </button>
                         </div>
                     </div>
                     <hr class='mb-2 border-bt_dark_blue mx-auto' />
-                    <span class='block text-sm text-bt_dark_blue text-center'>©2022 <Link to='/' className='hover:text-bt_dark_blue'>Rebekah Bulych™</Link>. All Rights Reserved.
+                    <span class='block text-sm text-bt_dark_blue text-center'>©2022 <Link to='/' className='hover:text-bt_dark_blue'>Rebekah Bulych</Link>. All Rights Reserved.
                     </span>
                 </footer>
 
