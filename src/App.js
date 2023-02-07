@@ -43,7 +43,7 @@ function App() {
                                 )}
                             </button>
                         </div>
-                        <div className={`text-sm  w-full flex-grow 
+                        <div className={`text-sm  w-full flex-grow
                                             ${navbar ? 'block bg-bt_light_blue' : 'hidden md:block'
                             }`}>
                             <div className='md:text-md lg:text-xl md:flex md:items-center md:w-auto md:mx-auto font-fira-sans font-bold'>
@@ -65,10 +65,6 @@ function App() {
                                 <a href='https://bekah.codes' target='blank'
                                     className='block md:border md:flex-1 md:text-center border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink md:hover:bg-bt_dark_blue md:bg-bt_light_blue p-2'>
                                     Blog
-                                </a>
-                                <a href='https://threadsthatthrive.ca' target='blank'
-                                    className='block md:border md:flex-1 md:text-center border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink md:hover:bg-bt_dark_blue md:bg-bt_light_blue p-2'>
-                                    Threads That Thrive
                                 </a>
                                 <button className='block md:border md:flex-1 border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink md:hover:bg-bt_dark_blue md:bg-bt_light_blue p-2'>
                                     <Link to='/projects' >
@@ -121,10 +117,6 @@ function App() {
                             <button href='https://bekah.codes' target='blank'
                                 className=' border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink p-2'>
                                 Blog
-                            </button>
-                            <button href='https://threadsthatthrive.ca' target='blank'
-                                className=' border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink p-2'>
-                                Threads That Thrive
                             </button>
                             <button className=' border-bt_dark_blue text-bt_dark_blue hover:text-bt_pink p-2'>
                                 <Link to='/projects' >
